@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border:  6px double black;
+  background-color: #f6def6;
+}
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}
